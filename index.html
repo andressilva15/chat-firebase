@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="chat_container">
+            <div class="username_container">
+                <p>Usuario</p>
+                <p class="username" id="userName"></p>
+            </div>
+            <div class="messages_displayer_container" id="messagesDisplayer"></div>
+            <div class="interaction_container">
+                <div class="text_send_container">
+                    <input class="text_send" type="text" id="textSend" />
+                </div>
+                <div class="btn_send_container">
+                    <div class="btn_send" id="btnSend">
+                        <p>Enviar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="chat.js"></script>
+</body>
+
+</html>
